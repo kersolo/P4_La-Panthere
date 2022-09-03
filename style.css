@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+
+
+.text-1 p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 22px;
+    width: 610px;
+    margin: auto;
+}
+.text-2 p{
+    font-family: 'Klee One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    width: 600px;
+    margin: auto;
+}
+.text-2 p span {
+    font-style: normal;
+    opacity: 0.8;
+}
+.text-3 p{
+    font-size: 22px;
+    margin: auto;
+    width: 450px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -38,6 +67,7 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+
 
 .bloc .container {
     padding-left: 0;
@@ -651,7 +681,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* color: #575757!important; */
+    color: #575757;
 }
 
 .container {
