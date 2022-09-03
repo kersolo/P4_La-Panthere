@@ -6,7 +6,7 @@
 .text-1 p {
     font-family: 'Archivo', sans-serif;
     font-size: 22px;
-    width: 610px;
+    max-width: 610px;
     margin: auto;
 }
 .text-2 p{
@@ -14,7 +14,7 @@
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
-    width: 600px;
+    max-width: 600px;
     margin: auto;
 }
 .text-2 p span {
@@ -24,7 +24,7 @@
 .text-3 p{
     font-size: 22px;
     margin: auto;
-    width: 450px;
+    max-width: 450px;
 }
 
 .text-center {
