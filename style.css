@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 
 .text-1 p {
     font-family: 'Archivo', sans-serif;
+    font-display: swap;
     font-size: 22px;
     max-width: 610px;
     margin: auto;
 }
 .text-2 p{
     font-family: 'Klee One', cursive;
+    font-display: swap;
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
@@ -25,6 +29,11 @@
 
 .text-center {
     font-size: 14px;
+}
+
+.col-sm-12 h1,
+.col-sm-12 p {
+    color: #000000!important;
 }
 
 body {
@@ -716,6 +725,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: 17px;
 }
 
 .h1 {
