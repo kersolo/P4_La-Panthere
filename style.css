@@ -34,6 +34,8 @@
 .accueil {
     color: #000000!important;
 }
+.col-sm-6 img {
+}
 
 body {
     margin: 0;
@@ -722,7 +724,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: auto auto auto auto;
     font-size: 17px;
 }
@@ -785,8 +787,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    min-width: 50%;
-    min-height: 50%;
 }
 
 .portfolio-row {
