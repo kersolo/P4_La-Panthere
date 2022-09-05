@@ -408,7 +408,6 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -448,6 +447,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
 }
 
 .nav > li > .dropdown a {
@@ -947,8 +947,13 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
-
+@media (max-width: 767.5px) {
+    .portfolio-thumb {
+        max-width: 60%;
+    } 
+}
 @media (max-width: 767px) {
+
     .page-container {
         overflow-x: hidden;
         position: relative;
