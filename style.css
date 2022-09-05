@@ -35,6 +35,13 @@
     color: #000000!important;
 }
 .col-sm-6 img {
+
+}
+.img-responsive {
+    /* width: 80%; */
+    margin: auto;
+    /* width: 50%;
+    height: 50%; */
 }
 
 body {
@@ -787,11 +794,13 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 80%;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    width: 100%;
 }
 
 .avatar {
