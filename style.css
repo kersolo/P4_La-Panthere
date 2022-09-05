@@ -31,8 +31,7 @@
     font-size: 14px;
 }
 
-.col-sm-12 h1,
-.col-sm-12 p {
+.accueil {
     color: #000000!important;
 }
 
@@ -743,8 +742,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    /* max-width: 400px;
+    margin: auto auto auto auto; */
+    padding: 0 25%;
+
 }
 
 h2 {
