@@ -34,9 +34,6 @@
 .accueil {
     color: #000000!important;
 }
-.col-sm-6 img {
-
-}
 .img-responsive {
     /* width: 80%; */
     margin: auto;
@@ -757,12 +754,13 @@ p {
 
 }
 
-h2 {
+.row h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+.col-sm-6 h2,
+.col-sm-4 h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
