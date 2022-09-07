@@ -42,6 +42,10 @@
     font-size: 15px;
 }
 
+.lab {
+    width: 70%;
+}
+
 body {
     margin: 0;
     padding: 0;
