@@ -38,6 +38,9 @@
     /* width: 50%;
     height: 50%; */
 }
+.adresse {
+    font-size: 15px;
+}
 
 body {
     margin: 0;
@@ -729,6 +732,7 @@ p {
     /* max-width: 400px;
     margin: auto auto auto auto; */
     padding: 0 25%;
+    margin: 40px 0;
 
 }
 
